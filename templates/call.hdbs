@@ -1,0 +1,4 @@
+<h2>{{sid}}</h2>
+
+<a href="" class='answer btn btn-primary'>Answer</a>
+<a href="" class='deny btn btn-danger'>Deny</a>
