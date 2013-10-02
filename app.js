@@ -26,7 +26,7 @@
       'app.activated': 'onActivation',
       'pollCall.done': 'onPollCallDone',
       'click .answer': 'onAnswerClick',
-      'click .deny': 'onDenyClick'
+      'click .deny':   'onDenyClick'
     },
 
     onActivation: function() {

@@ -1,11 +1,12 @@
 {
-  "name": "twiliotestapp",
+  "name": "Call Center World",
   "author": {
-    "name": "Thomas Pelletier",
-    "email": "tpelletier@zendesk.com"
+    "name": "Zendesk",
+    "email": "support@zendesk.com"
   },
   "defaultLocale": "en",
   "private": true,
+//  "location": "ticket_sidebar",
   "location": "top_bar",
   "version": "1.0",
   "frameworkVersion": "1.0"

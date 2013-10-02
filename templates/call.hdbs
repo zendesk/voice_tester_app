@@ -1,4 +1,10 @@
-<h2>{{sid}}</h2>
+<div>Incoming call from:</div>
 
-<a href="" class='answer btn btn-primary'>Answer</a>
-<a href="" class='deny btn btn-danger'>Deny</a>
+<div class="alert alert-success">
+  {{sid}}
+</div>
+
+<div class="row-fluid">
+<a href="" class='deny btn btn-danger'>Decline</a>
+<a href="" class='answer btn btn-success'>Answer</a>
+</div>
