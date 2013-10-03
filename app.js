@@ -20,7 +20,14 @@
     events: {
       'app.activated': 'onActivation',
       'click .answer': 'onAnswerClick',
-      'click .deny':   'onDenyClick'
+      'click .deny':   'onDenyClick',
+      'notification.incoming_call': 'handleCall'
+    },
+
+    handleCall: function(data) {
+      console.log('incoming call');
+      console.log(data);
+      this.switchTo('call', { sid: data });
     },
 
     onActivation: function() {
@@ -37,6 +44,7 @@
       event.preventDefault();
       console.log('Denying');
       this.ajax('denyCall');
+      this.switchTo('nocall');
     }
   };
 
