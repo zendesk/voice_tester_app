@@ -28,6 +28,7 @@
       console.log('incoming call');
       console.log(data);
       this.switchTo('call', { sid: data });
+      this.popover();
     },
 
     onActivation: function() {
