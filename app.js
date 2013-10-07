@@ -2,17 +2,17 @@
 
   return {
 //    BASE_URL: "http://localhost:8000",
-    BASE_URL: "http://voice-tester-service.herokuapp.com",
+    BASE_URL: "https://voice-tester-service.herokuapp.com",
 
     requests: {
       answerCall: function() {
         return {
-          url: "%@/answer/".fmt(this.BASE_URL)
+          url: "%@/answer".fmt(this.BASE_URL)
         };
       },
       denyCall: function() {
         return {
-          url: "%@/deny/".fmt(this.BASE_URL)
+          url: "%@/deny".fmt(this.BASE_URL)
         };
       }
     },
@@ -33,6 +33,7 @@
 
     onActivation: function() {
       console.log('Twilio Test App activated');
+      this.switchTo('call');
     },
 
     onAnswerClick: function(event) {
