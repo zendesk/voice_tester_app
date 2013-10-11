@@ -1,7 +1,7 @@
 <div>Incoming call from:</div>
 
 <div class="alert alert-success">
-  {{sid}}
+  This will show some information{{sid}}
 </div>
 
 <div class="row-fluid">
