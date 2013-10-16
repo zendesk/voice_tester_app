@@ -4,7 +4,7 @@
   This will show some information{{sid}}
 </div>
 
-<div class="row-fluid">
-<a href="" class='deny btn btn-danger'>Decline</a>
-<a href="" class='answer btn btn-success'>Answer</a>
+<div id="answer-deny">
+  <a href="" class='deny btn-danger'>Decline</a>
+  <a href="" class='answer btn-success'>Answer</a>
 </div>

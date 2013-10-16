@@ -3,3 +3,20 @@
     margin-left:85px;
 }
 
+#answer-deny {
+  margin-left: 60px;
+}
+
+#answer-deny .deny,
+#answer-deny .answer {
+
+  line-height: 18px;
+  padding: 4px 10px 4px;
+  border-radius: 3px;
+
+}
+
+.alert {
+  margin-top: 10px;
+}
+
