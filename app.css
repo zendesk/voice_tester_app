@@ -1,6 +1,7 @@
 &.apps.popover {
-  height: 250px;
-  width: 350px;
+  height: 320px;
+  width: 650px;
+  font-size: 30px;
 }
 
 .row-fluid {
@@ -9,8 +10,8 @@
 }
 
 #answer-deny {
-  margin-left: 100px;
-  padding-top: 15px;
+  margin-left: 200px;
+  padding-top: 35px;
 }
 
 #answer-deny .deny,
@@ -22,6 +23,5 @@
 }
 
 .alert {
-  margin-top: 15px;
+  margin-top: 30px;
 }
-
