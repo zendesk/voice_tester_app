@@ -28,7 +28,9 @@
       console.log('incoming call');
       console.log(data);
       this.switchTo('call', { sid: data });
-      this.popover();
+
+      // Delay is added to the app for demo purposes
+      setTimeout(this.popover.bind(this), 2000);
     },
 
     onActivation: function() {
@@ -40,6 +42,7 @@
       event.preventDefault();
       console.log('Answering');
       this.ajax('answerCall');
+      this.switchTo
     },
 
     onDenyClick: function(event) {
