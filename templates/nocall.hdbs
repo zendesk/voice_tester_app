@@ -1,3 +1,7 @@
 <div class="alert alert-info">
   No incoming call for now...
 </div>
+
+<div id="answer-deny">
+  <a href="" class='goback'>Go back</a>
+</div>

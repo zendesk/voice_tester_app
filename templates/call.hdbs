@@ -1,7 +1,11 @@
 <div>Incoming call from:</div>
 
 <div class="alert alert-success">
-  This will show some information{{sid}}
+  	{{#if caller}}
+  		{{caller}}
+	{{else}}
+  		Waiting for someone to dial in...
+	{{/if}}
 </div>
 
 <div id="answer-deny">

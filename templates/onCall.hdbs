@@ -1,0 +1,9 @@
+<div>You are on a call with:</div>
+
+<div class="alert alert-success">
+  {{caller}}
+</div>
+
+<div id="answer-deny">
+  <a href="" class='deny btn-danger'>Decline</a>
+</div>
