@@ -31,7 +31,7 @@
       this.sid = data;
 
       // Delay is added to the app for demo purposes
-      setTimeout(this.popover.bind(this), 2000);
+      setTimeout(this.popover.bind(this), 1000);
     },
 
     onActivation: function() {
